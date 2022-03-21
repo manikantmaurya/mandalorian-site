@@ -1,0 +1,90 @@
+.mandalorian-title-section{
+    animation: mandal 10s linear infinite forwards;
+    /* animation-delay: 5s; */
+}
+
+.mandalorian-title-section span{
+    animation: the 10s linear infinite forwards;
+}
+
+.boba-action{
+    animation:boba-action-z 10s linear infinite forwards;
+}
+
+.boba-action img{
+    animation: boba-action 10s linear infinite forwards;
+}
+
+.boba-focus img{
+    animation: boba-focus 10s linear infinite forwards;
+}
+
+.mandalorian-desc{
+    animation: desc 10s linear infinite forwards;
+}
+
+.divider{
+    animation: divider 10s linear infinite forwards;
+
+}
+
+body{
+    animation: changebg 10s linear infinite forwards;
+    transition: 2s;
+}
+
+@keyframes mandal{
+    20%,60%{
+        transform: scale(0.7) rotate(-90deg) translate(-700px, 200px);
+    }
+}
+
+@keyframes the {
+    20%,60%{
+        transform: rotate(90deg) scale(0.9) translate(100px, -100px);
+    }
+}
+
+@keyframes boba-action {
+    20%,60%{
+        transform: translate(100px,600px) scale(0.7); 
+    }
+}
+
+@keyframes boba-action-z {
+    20%,60%{
+        z-index: 20;
+    }
+}
+
+@keyframes boba-focus {
+    20%,60%{
+        transform: translate(-80px, 400px) scale(1.6);
+    }
+}
+
+@keyframes desc {
+    20%,60%{
+        transform: rotate(-90deg) translate(60px, 200px) scale(0.5);
+    }
+}
+
+@keyframes divider {
+    20%,60%{
+        transform: rotate(-90deg) translate(-500px, -250px);
+        z-index: -3;
+    }
+}
+
+@keyframes changebg{
+    20%,60%{
+        background-image: url('/assets/yoda.png');
+    }
+
+    0%,100%{
+        background-image: url('/assets/boba.png');
+    }
+}
+
+
+

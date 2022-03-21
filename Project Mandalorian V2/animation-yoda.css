@@ -1,0 +1,126 @@
+.mandalorian-section-2-animated{
+    opacity: 0;
+}
+
+.yoda-title-bar-animated{
+    height: 2px;
+    top: 0%;
+    left: -80%;
+}
+
+.yoda-title-animated {
+    /* position: absolute; */
+    font-size: 15vh;
+    line-height: 15vh;
+    left: -300%;
+    top: -80%;
+    /* bottom: 0vw; */
+    /* color: red; */
+}
+
+.white-bar-container-animated{
+    position: absolute;
+    bottom: -20vh;
+    z-index: 0;
+}
+
+.yoda-white-bar-animated{
+    transform: scale(1.5) rotate(-15deg);
+    margin: 0 auto;
+    width: 100vw;    
+    height: 70vh;
+    bottom: -60%;
+    right: 0;
+    z-index: 0;
+}
+
+.baby_yoda-section-2-animated{
+    /* width: 100%; */
+    transform: rotate(-15deg);
+    opacity: 1;
+
+}
+
+.yoda-focus-img-animated{
+    /* position: absolute; */
+    object-fit: cover;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.yoda-focus-container-animated{
+    width: 10vw;
+    height: 10vw;
+    /* position: absolute; */
+    bottom: 100%;
+    left: -130%;
+    border-radius: 50%;
+}
+
+.transparent-animated{
+    opacity: 0;
+}
+
+.rotate-animated{
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+.yoda-bg-img-animated{
+    transform: rotate(60deg);
+}
+
+
+/* Mandalorian section */
+
+.mandalorian-title-animated{
+    position: relative;
+    top: 20vh;
+    left: 10vw; 
+    transform: rotate(-90deg);
+}
+
+.mandalorian-the-animated{
+    position: relative;
+    top: 48vh;
+    left: 13vh;
+    transform: rotate(0deg);
+}
+
+.boba_action-img-animated{
+    position: relative;
+    top: 40vh;
+    left: 25vh;
+    z-index: 200;
+    transform: scale(0.7);
+}
+
+.boba_focus-img-animated{
+    position: relative;
+    top: 21vh;
+    left: 0vh;
+    z-index: 200;
+    transform: scale(1.7);
+}
+
+.divider-animated{
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+    width: 50vh;
+    transform: rotate(90deg);
+    z-index: 10;
+}
+
+.mandalorian-desc-animated{
+    position: absolute;
+    width: 400px;
+    top: 20vh;
+    left: 10vw;
+    transform: rotate(-90deg) scale(0.5);
+}
+
+.body-background{
+    background-image: url("assets/yoda.png");
+}
